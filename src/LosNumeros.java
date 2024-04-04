@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class LosNumeros {
     public static void main(String[] args) {
-        int numero = 0, contador = 0, aleatorio;
+        int numero, contador = 0, aleatorio;
         aleatorio = (int) (Math.random() * 100);
 
         JOptionPane.showMessageDialog(null, "bienvenido al juego de los numeros");
